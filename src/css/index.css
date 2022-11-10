@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  list-style: none;
+  font-family: "Noto Serif HK", serif;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #000;
+  height: 100px;
+}
+
+.logo-faculdade {
+  width: 120px;
+  margin-left: 10px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.nav-link {
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.botao-login {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.imagem-brasil {
+  height: 70px;
+  width: 70px;
+}
+
+
+.container-imagem {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.hero-imagem {
+  width: 100%;
+  height: 100%;
+}
+
+.texto-hero-imagem {
+  position: absolute;
+  font-size: 50px;
+  left: 10px;
+  top: 300px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.botao-hero-imagem {
+  position: absolute;
+  left: 10px;
+  top: 430px;
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.botao-hero-imagem:hover {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.primeiro-post {
+  height: 300px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+}
+
+.primeiro-post h1 {
+  padding: 30px;
+  font-size: 60px;
+}
+
+.primeiro-post p {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.botoes-servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #000;
+}
+
+.botoes-servicos a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 20px;
+  background: #fff;
+}
+
+.botoes-servicos a:hover {
+  background: #000;
+}
+
+.botao {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  filter: none;
+}
+
+.botao:hover {
+  filter: invert();
+}
+
+.segundo-post {
+  width: 100%;
+  text-align: center;
+}
+
+.titulo-workshop {
+  margin: 80px 0 30px 0;
+}
+
+.imagem-workshop {
+  width: 500px;
+  height: 30%;
+  border: 1px solid #000;
+}
+
+.container-workshop {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-texto-workshop {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid #000;
+}
+
+.container-texto-workshop h1 {
+  font-size: 30px;
+  margin: 40px 0;
+}
+
+.container-texto-workshop p {
+  font-size: 20px;
+  margin: 15px;
+}
+
+#rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.contato-rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contato-rodape p {
+  padding: 15px;
+}
